@@ -1,4 +1,4 @@
-# Comparison-of-TRIBE-and-STAMP
+Comparison-of-TRIBE-and-STAMP in HEK-293 cells and Drosophila S2 cells
 
 Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identifying targets of RNA binding proteins in human and Drosophila cells
 
@@ -6,4 +6,6 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
     A. trim_and_align_PE_dm6_2023.sh (Drosophila)
     B. trim_and_align_PE_hg38_2023.sh (Human)
 
-2) One of the outputs from the trim_and_align scripts 
+2) The sam file that results from the trim and align scripts is used as input to load the mapped data into a mysql database using the script load_table.sh.  This script is described in detail in rosbashlab/Hyper-TRIBE/CODE.
+
+3) 
