@@ -25,5 +25,9 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
     a. dm6_location.sh
     b. hg38_location.sh
     
-8) Deseq was used to look for perturbations in the transcriptomes of mammalian cells expressing TDP43-TRIBE or TDP43-STAMP.  
+8) EdgeR was used to look for perturbations in the transcriptomes of mammalian cells expressing TDP43-TRIBE or TDP43-STAMP.  
+    a. DE_HEK_edgeR_TDP43_APOv1.txt 
+    b. DE_HEK_edgeR_TDP43_ADARv1.txt 
+    
+9) 
     
