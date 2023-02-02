@@ -5,7 +5,7 @@ prefix=${1%.bed*}
 
 bedfile=$1
 #genomefile=$RHOME"/GENOMES/dmel.fa"
-genomefile="/Users/kate/scripts/hg38_p13.fa"
+genomefile="/Users/kate/scripts/hg38.p13.fa"
 
 #the location of the annotation file is hard coded in the perl script
 #perl /home/analysis/editing/extract_bases_near_editsites_aoife_editbed.pl -b $bedfile -g $genomefile > $prefix".count"
