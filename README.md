@@ -15,3 +15,7 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
 5) Editing sites consistent between two replicates were identified using bedtools in the following shell scripts:
     a. editing_site_overlap_TRIBE.sh
     b. editing_site_closest_STAMP.sh
+
+6) Editing sites identified with greater than 1% editing in enzyme only controls were removed using bedtools and additional output files with coordinates expanded by different amounts were generated.
+    a. subtract_slop_enzyme_only_sites_dm6.sh
+    b. substract_slop_enzyme_only_sites_hg38.sh
