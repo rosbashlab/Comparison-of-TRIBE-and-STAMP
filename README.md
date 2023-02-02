@@ -19,3 +19,9 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
 6) Editing sites identified with greater than 1% editing in enzyme only controls were removed using bedtools and additional output files with coordinates expanded by different amounts were generated.
     a. subtract_slop_enzyme_only_sites_dm6.sh
     b. substract_slop_enzyme_only_sites_hg38.sh
+    
+    
+7) Location of the editing sites in the transcripts were determined using bedtools in the following shell scripts.  Annotation files describing 5'-UTR, 3'-UTR and CDS were downloaded from UCSC genome browser table.
+    a. dm6_location.sh
+    b. hg38_location.sh
+    
