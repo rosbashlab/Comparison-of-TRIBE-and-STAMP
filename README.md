@@ -8,4 +8,10 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
 
 2) The sam file that results from the trim and align scripts is used as input to load the mapped data into a mysql database using the script load_table.sh.  This script is described in detail in rosbashlab/Hyper-TRIBE/CODE.
 
-3) Editing sites are identified from mysql table as described in rosbashlab/Hyper-TRIBE/CODE.  specific scripts used here are included.
+3) Editing sites are identified from mysql table as described in rosbashlab/Hyper-TRIBE/CODE.  Editing sites were thresholded to 6% editing by editing variables in Threshold_editsites_20_reads.py (see rosbashlab/Hyper-TRIBE/CODE)
+
+4) Editing sites with >1% editing in ADAR only and APOBEC only controls were identified using Threshold_editsites_20_reads.py (see rosbashlab/Hyper-TRIBE/CODE) modified with a 1% cutoff. 
+
+5) Editing sites consistent between two replicates were identified using bedtools in the following shell scripts:
+    a. editing_site_overlap_TRIBE.sh
+    b. editing_site_closest_STAMP.sh
