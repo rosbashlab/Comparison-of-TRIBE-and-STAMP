@@ -29,5 +29,5 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
     a. DE_HEK_edgeR_TDP43_APOv1.txt 
     b. DE_HEK_edgeR_TDP43_ADARv1.txt 
     
-9) Near neighbor preferences were examined by extracting the bases on either side of the editing site and 
+9) Near neighbor preferences were examined by extracting the bases on either side of the editing site and counting the prevalence of each neighboring base.  The script extract_bases_near_editsites_from_bedgraph.pl is contained within the script count_base.sh.
     
