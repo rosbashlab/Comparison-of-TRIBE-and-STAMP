@@ -8,4 +8,4 @@ Custom scripts used in the manuscript: Comparison of TRIBE and STAMP for identif
 
 2) The sam file that results from the trim and align scripts is used as input to load the mapped data into a mysql database using the script load_table.sh.  This script is described in detail in rosbashlab/Hyper-TRIBE/CODE.
 
-3) 
+3) Editing sites are identified from mysql table as described in rosbashlab/Hyper-TRIBE/CODE.  specific scripts used here are included.
